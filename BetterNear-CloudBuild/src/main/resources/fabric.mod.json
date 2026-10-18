@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "betternear",
+  "version": "${version}",
+  "name": "Better Near",
+  "description": "A configurable nearby-player HUD.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.betternear.BetterNearClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
